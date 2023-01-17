@@ -1,0 +1,126 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+https://css-tricks.com/the-difference-between-id-and-class/
+
+1) make your css cleaner using only classes for the CSS keep ID's for the logic.
+2) Compartimentalize and use hirachies.
+3) DRY
+*/
+body{
+    font-family: 'Sofia Sans', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 100%;
+     width: 720px;
+}
+#title{
+    margin: 5px 0 0 0;
+    width: 201;
+    background: #003049;
+    color: #ffffff;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 5px ;
+}
+#subtitle{
+    margin: 2px 0 0 0;
+    width: 201;
+    background: #003049  ;
+    color: #ffffff;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 5px ;
+    
+}
+#subtitle-1{
+    margin: 180px 0 0 0;
+    width: 201;
+    background: #003049;
+    color: #ffffff;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 5px ;
+}
+.hero{
+    width: 720px;
+    height:380px;
+    background-image: url(images/catedral.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    padding: 10px 15px 10px 15px;
+
+    
+}
+#activities{
+  margin: auto;
+  width: 720px;
+  
+  background:linear-gradient(#faedcd, #e9edc9);
+  border: 1px solid #F1FAEE;
+}
+
+#activities-title{
+ margin-top: 39px;
+}
+#activities-container-outer {
+  margin-top: 54px;
+  display: flex;
+  justify-content: space-around;
+}
+.activities-container-inner {
+  margin: 0px 5px 0px 5px;
+  padding: 10px;
+}
+
+.act-img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border: 5px solid ;
+    border-color: #71B48D;
+}
+
+.act-img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px #457B9D;
+}
+
+#guide {
+  margin: 0 auto;
+  width: 720px;
+  height: 394px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+#guide-card {
+  margin: 50px auto;
+  width: 400px;
+  height: 294px;
+  background-image: linear-gradient(#dacc73, #aea26c);
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #e5e5e5;
+}
+
+#guide-img {
+  margin:20px;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(#457B9D, 25%, #ffffff  75%);
+  border-radius: 10px;
+}
+
+#guide-text {
+  padding: 20px;
+}
